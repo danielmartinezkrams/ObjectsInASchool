@@ -30,7 +30,7 @@ public class Section {
         for(int i = 0; i < students.size(); i++){
             score += students.get(i).awesomeness;
         }
-        return (score / students.size());
+        return (score / (students.size() + 1));
     }
     public Section (String name, int maxSize, ArrayList<Student> students, Teacher teacher){
         this.name = name;

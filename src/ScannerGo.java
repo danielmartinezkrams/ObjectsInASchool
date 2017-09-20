@@ -157,7 +157,7 @@ public class ScannerGo {
         String studentLast = sc.next();
         System.out.println("What is the grade?");
         int studentGrade = sc.nextInt();
-        System.out.println("How awesome is the student?");
+        System.out.println("How awesome is the student (1-10)?");
         int studentAwesomeness = sc.nextInt();
         Student student = new Student(studentGrade, studentFirst, studentLast, studentAwesomeness);
         searchStudents.add(student);
